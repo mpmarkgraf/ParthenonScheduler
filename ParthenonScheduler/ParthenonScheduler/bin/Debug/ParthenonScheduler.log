@@ -1,0 +1,306 @@
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T14:35:36.5169369Z
+ParthenonScheduler.exe Warning: 0 : Waiting for exit signal.
+    DateTime=2020-05-14T14:35:36.6856465Z
+ParthenonScheduler.exe Information: 0 : Expired Licenses job running
+    DateTime=2020-05-14T14:36:00.1729194Z
+ParthenonScheduler.exe Information: 0 : Running the New Files Job.
+    DateTime=2020-05-14T14:36:00.1759110Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:36:00.5296925Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:36:00.6973701Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T14:36:00.7515029Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T14:36:00.7515029Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:36:00.7694563Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:36:00.7704537Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:36:00.7774582Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:36:00.7774582Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T14:36:00.8118858Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:36:00.8178525Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:36:00.8178525Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T14:36:00.8228482Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:36:00.8288227Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [eu_id] = 8 AND [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:36:00.8288227Z
+ParthenonScheduler.exe Information: 0 : Send email to amy.warren@itspeex.com
+    DateTime=2020-05-14T14:36:00.8577236Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:36:00.8676957Z
+ParthenonScheduler.exe Error: 0 : Scheduler is exiting
+    DateTime=2020-05-14T14:36:12.0786388Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T14:36:46.4345819Z
+ParthenonScheduler.exe Warning: 0 : Waiting for exit signal.
+    DateTime=2020-05-14T14:36:46.5486894Z
+ParthenonScheduler.exe Information: 0 : Running the New Files Job.
+    DateTime=2020-05-14T14:37:00.0544680Z
+ParthenonScheduler.exe Information: 0 : Expired Licenses job running
+    DateTime=2020-05-14T14:37:00.0554401Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:37:00.3494470Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T14:37:00.4936177Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:37:00.5138346Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:37:00.5138346Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:37:00.5347870Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T14:37:00.5536203Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:37:00.5655906Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:37:00.5655906Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T14:37:00.5848806Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:37:00.5908238Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:37:00.5908238Z
+ParthenonScheduler.exe Information: 0 : Send email to amy.warren@itspeex.com
+    DateTime=2020-05-14T14:37:00.6087839Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:37:00.6287253Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T14:37:00.6327120Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:37:00.6406898Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [eu_id] = 8 AND [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:37:00.6416869Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T14:38:24.9090352Z
+ParthenonScheduler.exe Warning: 0 : Waiting for exit signal.
+    DateTime=2020-05-14T14:38:25.0317057Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T14:38:34.7731539Z
+ParthenonScheduler.exe Warning: 0 : Waiting for exit signal.
+    DateTime=2020-05-14T14:38:34.8890445Z
+ParthenonScheduler.exe Information: 0 : Running the New Files Job.
+    DateTime=2020-05-14T14:39:00.0503387Z
+ParthenonScheduler.exe Information: 0 : Expired Licenses job running
+    DateTime=2020-05-14T14:39:00.0513669Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:39:00.3471919Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T14:39:00.4453660Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:39:00.4633177Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:39:00.4633177Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T14:39:00.5030202Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:39:00.5090069Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:39:00.5090069Z
+ParthenonScheduler.exe Information: 0 : Send email to amy.warren@itspeex.com
+    DateTime=2020-05-14T14:39:14.0170909Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:39:14.5559460Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:39:21.3573225Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T14:40:00.2758687Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:40:00.2818539Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:40:07.8936533Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T14:40:13.8135478Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:40:13.8185332Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [eu_id] = 8 AND [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:40:17.3697485Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T14:42:46.3623504Z
+ParthenonScheduler.exe Warning: 0 : Waiting for exit signal.
+    DateTime=2020-05-14T14:42:46.4780670Z
+ParthenonScheduler.exe Information: 0 : Running the New Files Job.
+    DateTime=2020-05-14T14:43:00.0435268Z
+ParthenonScheduler.exe Information: 0 : Expired Licenses job running
+    DateTime=2020-05-14T14:43:00.0455209Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:43:00.3608730Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:43:13.0202312Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T14:43:13.0222250Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T14:43:21.6494785Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:43:24.8513288Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:43:35.4794149Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:43:41.4135963Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:43:41.4135963Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T14:43:47.7673974Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T14:43:49.0181381Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:44:15.4283077Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [eu_id] = 8 AND [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:44:15.4283077Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:44:15.4343261Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:44:15.4343261Z
+ParthenonScheduler.exe Information: 0 : Send email to amy.warren@itspeex.com
+    DateTime=2020-05-14T14:44:16.7639717Z
+ParthenonScheduler.exe Error: 0 : Exception during email send Could not find a part of the path 'C:\AthenaUserPortal\Resources\athena_email.png'.
+    DateTime=2020-05-14T14:44:16.7719513Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T14:44:46.8383952Z
+ParthenonScheduler.exe Warning: 0 : Waiting for exit signal.
+    DateTime=2020-05-14T14:44:46.9748084Z
+ParthenonScheduler.exe Information: 0 : Expired Licenses job running
+    DateTime=2020-05-14T14:45:00.0563696Z
+ParthenonScheduler.exe Information: 0 : Running the New Files Job.
+    DateTime=2020-05-14T14:45:00.0573670Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:45:00.3470230Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T14:45:06.3616633Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:45:13.0429298Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T14:46:38.8418076Z
+ParthenonScheduler.exe Warning: 0 : Waiting for exit signal.
+    DateTime=2020-05-14T14:46:38.9645616Z
+ParthenonScheduler.exe Information: 0 : Running the New Files Job.
+    DateTime=2020-05-14T14:47:00.0426078Z
+ParthenonScheduler.exe Information: 0 : Expired Licenses job running
+    DateTime=2020-05-14T14:47:00.0446023Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:47:00.3425864Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T14:47:00.4665696Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:47:00.5309083Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T14:47:00.5879729Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T14:47:03.0265295Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:47:03.0265295Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T14:47:03.0677087Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T14:47:03.0968601Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:47:03.0968601Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T14:47:03.1430198Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T14:47:03.6492270Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:47:03.6492270Z
+ParthenonScheduler.exe Information: 0 : Send email to amy.warren@itspeex.com
+    DateTime=2020-05-14T14:47:03.6884166Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T14:47:03.7278856Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [eu_id] = 8 AND [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:47:03.7278856Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T14:47:04.5607772Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T14:48:26.4599119Z
+ParthenonScheduler.exe Warning: 0 : Waiting for exit signal.
+    DateTime=2020-05-14T14:48:26.5789677Z
+ParthenonScheduler.exe Information: 0 : Running the New Files Job.
+    DateTime=2020-05-14T14:49:00.0581179Z
+ParthenonScheduler.exe Information: 0 : Expired Licenses job running
+    DateTime=2020-05-14T14:49:00.0611081Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:49:00.3863505Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T14:49:00.5050571Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:49:00.5561795Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T14:49:00.6497256Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T14:49:02.2682085Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T14:49:02.2682085Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T14:49:02.3134898Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T14:49:02.3134898Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T14:49:02.3165140Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T14:49:02.3651694Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T14:49:02.9106565Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T14:49:04.2462828Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T15:41:21.0417865Z
+ParthenonScheduler.exe Warning: 0 : Waiting for exit signal.
+    DateTime=2020-05-14T15:41:21.1618330Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T15:42:13.1738716Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T15:44:03.2975307Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T15:45:07.4991230Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T15:45:43.4182514Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T15:47:03.3005270Z
+ParthenonScheduler.exe Warning: 0 : Started the Parthenon scheduler.
+    DateTime=2020-05-14T16:04:00.7085246Z
+ParthenonScheduler.exe Warning: 0 : Waiting for exit signal.
+    DateTime=2020-05-14T16:04:00.8274400Z
+ParthenonScheduler.exe Information: 0 : Running the New Files Job.
+    DateTime=2020-05-14T16:04:00.8772758Z
+ParthenonScheduler.exe Information: 0 : Expired Licenses job running
+    DateTime=2020-05-14T16:04:00.8793069Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T16:04:01.1684522Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T16:04:01.2991093Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T16:04:01.3559519Z
+ParthenonScheduler.exe Information: 0 : Send email to kyle.steinfort@itspeex.com
+    DateTime=2020-05-14T16:04:01.4018275Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T16:04:03.0301624Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T16:04:03.0301624Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T16:04:03.0301624Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [end_date] < CAST('6/13/2020' AS DATE)
+    DateTime=2020-05-14T16:04:03.0301624Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T16:04:03.0828623Z
+ParthenonScheduler.exe Information: 0 : Send email to mmarkgraf@itspeex.com
+    DateTime=2020-05-14T16:04:03.0828623Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T16:04:03.5859839Z
+ParthenonScheduler.exe Information: 0 : Sql query for expiring licenses SELECT [id],[type_id],[oem_id],[user_id],[machine_id],[machine_serial],[location_id],[pc],[comment],[start_date],[end_date],[create_date],[serial_number] FROM [dbo].[licenses] WHERE [eu_id] = 8 AND [end_date] > CURRENT_TIMESTAMP AND [end_date] < CAST('6/13/2020' AS DATE) 
+    DateTime=2020-05-14T16:04:03.5859839Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T16:04:03.5993178Z
+ParthenonScheduler.exe Information: 0 : Using sql SELECT [file_name],[comment],[create_date] FROM [dbo].[files] WHERE [create_date] > CAST('4/14/2020' AS DATE)
+    DateTime=2020-05-14T16:04:03.5993178Z
+ParthenonScheduler.exe Information: 0 : Send email to amy.warren@itspeex.com
+    DateTime=2020-05-14T16:04:03.6414826Z
+ParthenonScheduler.exe Information: 0 : Email sent!
+    DateTime=2020-05-14T16:04:04.1111584Z
